@@ -1,0 +1,36 @@
+.row{
+    display: flex;
+}
+
+.column{
+    flex:1;
+    text-align: center;
+    padding: 40px 40px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.column:hover{
+    background-color: #323330;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+
+.container{
+    width:800px;
+    margin: 0 auto;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    background-color:lightgrey;
+    cursor: pointer;
+}
+
+#playAgain{
+   margin: auto;
+   display: block;
+   margin-top: 30px;
+}
+
+p{
+    text-align: center;
+}
